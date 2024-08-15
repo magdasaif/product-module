@@ -13,10 +13,10 @@ class Product extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
-
-    protected static function newFactory(): ProductFactory
-    {
-        //return ProductFactory::new();
-    }
+    protected $fillable = ['name_ar','name_en'];
+    public $table       = "product_2s";
+    // protected static function newFactory(): ProductFactory
+    // {
+    //     //return ProductFactory::new();
+    // }
 }

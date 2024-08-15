@@ -3,6 +3,7 @@
 namespace Modules\Product\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Traits\TestTrait;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -12,8 +13,11 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      */
+    use TestTrait;
     public function index()
     {
+        return 'ggg';
+        // return $this->test();
         // dd('ffffffffffffffffff');
         return view('product::index');
     }
