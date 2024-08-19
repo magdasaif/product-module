@@ -2,11 +2,11 @@
 
 namespace Modules\Product\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use App\Traits\TestTrait;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use App\Http\Controllers\Controller;
+use Illuminate\Http\RedirectResponse;
 
 class ProductController extends Controller
 {
