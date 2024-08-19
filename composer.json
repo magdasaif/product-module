@@ -2,6 +2,7 @@
     "name": "magdasaif/product",
     "version": "1.0.0",
     "description": "",
+    "type":"laravel-module",
     "authors": [
         {
             "name": "Magda saif",
