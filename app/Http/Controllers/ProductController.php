@@ -16,7 +16,10 @@ class ProductController extends Controller
     use TestTrait;
     public function index()
     {
-        return 'ggg';
+        // return 'ggg';
+        // return module_path('Product', 'database/migrations');///media/murabba/projects/projects/hmvc/Modules/Product/database/migrations
+        // return database_path('migrations');///media/murabba/projects/projects/hmvc/database/migrations
+        return module_path('Product').'/routes/web.php';
         // return $this->test();
         // dd('ffffffffffffffffff');
         return view('product::index');
