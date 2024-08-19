@@ -35,7 +35,7 @@ class ProductServiceProvider extends ServiceProvider
         // ], 'product-migrations');
 
 
-        $this->publishes([
+        $this->publishesMigrations([
             __DIR__.'/../database/migrations' => database_path('migrations')
         ], 'product-migrations');
         //==============================================================================================

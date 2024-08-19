@@ -2,23 +2,12 @@
     "name": "magdasaif/product",
     "version": "1.0.0",
     "description": "",
-    "type":"laravel-module",
     "authors": [
         {
             "name": "Magda saif",
             "email": "magdasaif3@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Modules\\Product\\Providers\\ProductServiceProvider"
-            ],
-            "aliases": {
-            }
-        }
-    },
-
     "autoload": {
         "psr-4": {
             "Modules\\Product\\": "app/",
