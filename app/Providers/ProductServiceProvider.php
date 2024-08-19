@@ -23,10 +23,10 @@ class ProductServiceProvider extends ServiceProvider
         $this->registerViews();
 
         // $this->loadMigrationsFrom(module_path($this->moduleName, 'database/migrations'));
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
 
         // $this->loadRoutesFrom($this->moduleName.'/routes/web.php');
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        $this->loadRoutesFrom(__DIR__.'/../../routes/web.php');
 
         //==============================================================================================
         // $this->publishes([
